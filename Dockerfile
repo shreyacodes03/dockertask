@@ -1,4 +1,4 @@
-# 1. Show current directory
+FROM ubuntu:latest
 RUN pwd
 
 # 2. List all files
@@ -12,4 +12,5 @@ RUN echo "Hello Docker!" > hello.txt
 
 # 5. Display the file content
 RUN cat hello.txt
+
 CMD ["bash"]
